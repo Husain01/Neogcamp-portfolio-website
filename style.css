@@ -100,7 +100,7 @@ ol, ul{
 
 .hero {
   padding: 2rem;
-  padding-top: 5rem;
+  padding-top: 4rem;
 }
 
 .hero .hero-img {
@@ -108,6 +108,11 @@ ol, ul{
   display: block;
   margin: auto;
 }
+.hero .hero-img-profile{
+  border-radius: 100%;
+}
+
+
 
 .hero .hero-heading {
   padding-top: 1rem;
