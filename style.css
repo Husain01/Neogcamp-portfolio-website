@@ -15,10 +15,19 @@ hr {
   margin: 2rem 0;
 }
 
+ol, ul{
+  padding-inline-start: 0px;
+}
+
+/* Spaces */
+.padding-md{
+  padding: 2rem ;
+}
+
 /* container */
 .container {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 2rem;
+  padding-right: 1.5rem;
 }
 
 .container-center {
@@ -28,8 +37,11 @@ hr {
 
 /* links */
 .link {
+  box-sizing: border-box;
   text-decoration: none;
   padding: 0.5rem 1rem;
+  /* margin-top: 1rem;
+  margin-bottom: 1rem ; */
 }
 
 .link-primary {
@@ -43,6 +55,9 @@ hr {
   border: 1px solid var(--primary-color);
 }
 
+.resource-links{
+  color: var(--primary-color);
+}
 /* Lists */
 
 .list-non-bullet {
@@ -61,7 +76,7 @@ hr {
   color: whitesmoke;
   padding: 1rem;
   border-bottom-left-radius: 1rem;
-  border-top-right-radius: 1rem;
+  /* border-bottom-right-radius: 1rem; */
 }
 
 .navigation .nav-brand {
@@ -85,6 +100,7 @@ hr {
 
 .hero {
   padding: 2rem;
+  padding-top: 5rem;
 }
 
 .hero .hero-img {
@@ -127,7 +143,7 @@ hr {
     text-align: center;
     color: whitesmoke;
     border-top-right-radius: 1rem;
-    border-bottom-left-radius: 1rem;
+    /* border-bottom-left-radius: 1rem; */
 }
 
 .footer .link{
@@ -136,4 +152,9 @@ hr {
 
 .footer ul{
   padding-inline-start: 0px;
+}
+
+.footer .footer-header{
+  font-weight: bold;
+  font-size: large;
 }
